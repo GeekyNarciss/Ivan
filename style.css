@@ -61,7 +61,7 @@ table {
 th, td:first-child {
   background: #AFCDE7;
   color: #489CE8;
-  padding: 15px 15px;
+  padding: 10px 20px;
 }
 
 th, td {
@@ -114,6 +114,12 @@ th:first-child, td:first-child {
 @media screen and (max-width: 850px) {
   .navbar{   
     display: none;
+  }
+
+  th, td:first-child {
+    background: #AFCDE7;
+    color: #489CE8;
+    padding: 15px 5px;
   }
 
   #menu__toggle {
@@ -200,7 +206,7 @@ th:first-child, td:first-child {
   }
 }
 
-@media screen and (max-width: 354px) {
+@media screen and (max-width: 500px) {
   .links{   
     flex-direction: column;
   }
